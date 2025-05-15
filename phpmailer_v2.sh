@@ -1,6 +1,8 @@
 #!/bin/bash
 
 instalar_phpmailer() {
+    cd
+    cd public_html
     # Verifica se a pasta existe e faz backup, se necessário
     if [ -d "phpmailerlw" ]; then
         mv phpmailerlw phpmailerlw_old
