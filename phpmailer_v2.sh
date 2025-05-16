@@ -26,7 +26,7 @@ instalar_phpmailer() {
         sed -i "s/\$mail->Host = '.*';/\$mail->Host = 'email-ssl.com.br';/" enviar_email.php
         sed -i "s/\$mail->Username = '.*';/\$mail->Username = 'teste@phpmailer.servicos.ws';/" enviar_email.php
         sed -i "s/\$mail->Password = '.*';/\$mail->Password = 'Teste@30303030';/" enviar_email.php
-        sed -i "s|\$mail->setFrom('.*', '.*');|\$mail->setFrom('teste@phpmailer.servicos.ws', 'Remetente');|" enviar_email.php
+        sed -i "s|\$mail->setFrom('.*', '.*');|\$mail->setFrom('teste@phpmailer.servicos.ws', 'Formulario PHP Mailer');|" enviar_email.php
         sed -i "s|\$mail->addAddress('.*', '.*');|\$mail->addAddress('suportelocaweb09@gmail.com', 'Destinatario');|" enviar_email.php
         echo "... configurações de e-mail atualizadas em enviar_email.php"
     else
