@@ -33,7 +33,7 @@ instalar_phpmailer() {
         echo "⚠️ Arquivo enviar_email.php não encontrado!"
     fi
 
-    echo "feito!"
+    echo "feito! Acesse o "dominio/phpmailerlw" para testar o formulario"
 }
 
 instalar_phpmailer
